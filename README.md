@@ -1,3 +1,3 @@
 # SnakeJavascriptGame
 
-Basic version without workers.
+Basic version with DOM manipulation and without workers... https://nico57c.github.io/SnakeJavascriptGame/
