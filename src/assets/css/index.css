@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'PasseroOne';
+  src: url('../fonts/PasseroOne-Regular.ttf')  format('truetype');
+}
+
+.box {
+
+}
+
+.boxVisible {
+    border-radius: 50%;
+    background: radial-gradient(circle at 0px 0px, #FF0, #555);
+}
+
+.apple {
+    border-radius: 50%;
+    background: radial-gradient(circle at 0px 0px, #0F0, #555);
+}
+
+.frame {
+    background-color: black;
+}
+
+.hud {
+    background-color: #555;
+    color: #CCC;
+    height: 40px !important;
+    clear:both;
+    background-color: grey;
+}
+
+.hud-score {
+    height: 40px;
+    line-height: 40px;
+    font-family: "PasseroOne";
+    margin-left: auto;
+    margin-right: 0px;
+    width: 6em;
+    font-size: 22px;
+    text-align:right;
+    margin-right: 1em;
+}
+
+.hud-timer {
+    height: 40px;
+    line-height: 40px;
+    font-family: "PasseroOne";
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    width: 5em;
+    font-size: 22px;
+    text-align:center;
+}
