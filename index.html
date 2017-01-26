@@ -1,7 +1,60 @@
 <html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="src/assets/css/index.css" />
+</head>
 <body>
-    <h3><a href="src/indexBasic.html">Basic DOM manipulation</a></h3>
-    <h3><a href="src/indexWorker.html">Basic DOM manipulation With Workers</a></h3>
+    <header class="navbar navbar-light navbar-toggleable-md bd-navbar navbar-inverse fixed-top bg-inverse">
+        <nav class="container">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Snake-JavascriptGame</a>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Github sources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <main id="content" style="padding-top: 8rem;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 title">
+              <div class="rounded-circle">&nbsp;</div>
+              <h2>Simple DOM<br/>&nbsp;</h2>
+              <p>...</p>
+              <p><a class="btn btn-secondary" href="src/indexBasic.html" role="button">Start</a></p>
+            </div>
+            <div class="col-lg-4 title">
+              <div class="rounded-circle">&nbsp;</div>
+              <h2>Simple DOM<br/>with worker</h2>
+              <p>...</p>
+              <p><a class="btn btn-secondary" href="src/indexWorker.html" role="button">Start</a></p>
+            </div>
+            <div class="col-lg-4 title">
+              <div class="rounded-circle">&nbsp;</div>
+              <h2>...<br/>...</h2>
+              <p>...</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Start</a></p>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="footer" style="
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background-color: #f5f5f5;
+    ">
+        <div class="container"> <span class="text-muted">Place sticky footer content here.</span> </div>
+    </footer>
 </body>
 </html>

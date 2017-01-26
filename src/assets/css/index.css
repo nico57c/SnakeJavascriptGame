@@ -52,3 +52,19 @@
     font-size: 22px;
     text-align:center;
 }
+
+.rounded-circle {
+    background-image: url('../img/snake.png');
+    height: 110px;
+    width: 188px;
+    background-position: center top;
+    box-shadow: 0px 0px 8px 1px #555 inset;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.title {
+    text-align: center;
+}
