@@ -68,3 +68,26 @@
 .title {
     text-align: center;
 }
+
+.logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 26%;
+}
+
+.webworker {
+    height: 90%;
+    width: 100%;
+    margin-left: 16%;
+    background-image: url('../img/gears.png');
+    background-position: left bottom;
+    background-size: 12%;
+}
+
+.webgl {
+    height: 100%;
+    width: 90%;
+    margin-left: 15%;
+    background-image: url('../img/webgl.png');
+    background-position: left bottom;
+}
